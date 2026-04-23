@@ -19,9 +19,6 @@ ENV/
 env/
 
 # Environment and Secrets
-.env
-.env.local
-.env.*
 !.env.example
 *.local
 credentials*.json
@@ -72,3 +69,5 @@ checkpoint-*/
 runs/
 wandb/
 frontend/tsconfig.tsbuildinfo
+config.bat
+node_modules
